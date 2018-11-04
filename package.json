@@ -1,35 +1,35 @@
 {
-  "name": "ng2-twitter",
-  "version": "0.3.0",
-  "description": "Angular2 service of authorized request for twitter.",
+  "name": "ngx-twitter-api",
+  "version": "0.4.0",
+  "description": "Angular service of authorized request for twitter.",
+  "author": "Edy Avendaño",
+  "license": "MIT",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc",
-    "prepublish": "npm run build"
-  },
+  "private": false,
   "keywords": [
     "twitter",
-    "angular2",
+    "angular",
     "oauth"
   ],
-  "author": "Aoinu",
-  "license": "MIT",
-  "devDependencies": {
-    "typescript": "^2.0.3"
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc"
   },
   "dependencies": {
-    "@angular/core": "^2.3.1",
-    "@angular/http": "^2.3.1",
+    "@angular/core": "~6.1.1",
+    "@angular/platform-browser": "~6.1.1",
+    "@angular/common": "~6.1.1",
     "@types/jssha": "0.0.29",
-    "jssha": "^2.2.0",
-    "rxjs": "^5.0.1",
-    "zone.js": "^0.7.2"
+    "jssha": "^2.3.1",
+    "rxjs": "6.2.2",
+    "zone.js": "^0.8.26"
+  },
+  "devDependencies": {
+    "typescript": "~2.9.2"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Aoinu/ng2-twitter.git"
-  },
-  "private": false
+    "url": "https://github.com/edy-ap/ngx-twitter-api.git"
+  }
 }
