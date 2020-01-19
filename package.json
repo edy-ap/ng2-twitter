@@ -1,6 +1,6 @@
 {
   "name": "ngx-twitter-api",
-  "version": "0.4.1",
+  "version": "0.4.2",
   "description": "Angular service of authorized request for twitter.",
   "author": "Edy Avendaño",
   "license": "MIT",
@@ -17,16 +17,16 @@
     "build": "tsc"
   },
   "dependencies": {
-    "@angular/core": "~7.0.4",
-    "@angular/platform-browser": "~7.0.4",
-    "@angular/common": "~7.0.4",
-    "@types/jssha": "0.0.29",
+    "@angular/common": "^8.2.14",
+    "@angular/core": "^8.2.14",
+    "@angular/platform-browser": "^8.2.14",
+    "@types/jssha": "^2.0.0",
     "jssha": "^2.3.1",
-    "rxjs": "6.3.3",
-    "zone.js": "^0.8.26"
+    "rxjs": "^6.5.4",
+    "zone.js": "^0.10.2"
   },
   "devDependencies": {
-    "typescript": "~3.1.1"
+    "typescript": "^3.7.5"
   },
   "repository": {
     "type": "git",
